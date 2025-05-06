@@ -31,7 +31,7 @@ miniprojetcloud/
 Configurez les paramètres de connexion à votre instance Nextcloud dans le fichier `config.py` :
 
 ```python
-Modifiez La fonction
+#Modifiez La fonction
 def upload_file(file):
     nextcloud_url = 'http://your-nextcloud-url'  # Remplacez par l'URL de votre serveur Nextcloud
     username = 'your_username'                   # Votre nom d'utilisateur Nextcloud
